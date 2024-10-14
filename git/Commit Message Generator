@@ -1,0 +1,26 @@
+To generate a commit message following the Conventional Commits standard for the given {diff}, follow these steps:
+
+Analyze the provided {diff} to identify the type of change. The type should be one of the following:
+
+feat: A new feature.
+fix: A bug fix.
+docs: Documentation updates.
+style: Code formatting changes (no functional changes).
+refactor: Code restructuring (without changing behavior).
+perf: Performance improvement.
+test: Adding or modifying tests.
+chore: Maintenance tasks, such as dependency updates.
+Specify the scope (optional). If the change is specific to a certain module or component, include the scope in parentheses after the type (e.g., feat(auth)).
+
+Write a short, imperative mood description based on the {diff}. Keep this description concise (72 characters or fewer).
+
+Add an optional second line to provide additional context. This line should explain why the change was made or provide extra details derived from the given {context}.
+
+Example Template:
+
+scss
+Copy code
+{type(scope)}: {brief description of change}
+
+{additional context or reason for the change}
+Now, provide the {diff} and {context} for me to generate the commit message.
